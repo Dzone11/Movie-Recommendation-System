@@ -7,7 +7,7 @@ A movie recommendation system is a project that uses data analysis and machine l
 - The main idea is to measure the similarity between movies based on their descriptions, genres, cast, directors, and keywords.
 - The similarity metric used is cosine similarity, which calculates the angle between two vectors of features.
   
-- The steps involved are:
+The steps involved are:
 - Preprocessing the data by cleaning the text, removing stopwords, and applying stemming or lemmatization.
 - Extracting features from the text using TfidfVectorizer, which assigns weights to words based on their frequency and importance.
 - Computing the cosine similarity matrix for all movies using the feature vectors.
